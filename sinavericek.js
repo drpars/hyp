@@ -1,5 +1,9 @@
 // ==UserScript==
-// @name         SİNA Otomatik Tablo Çekici (Kilitli)
+// @name         SİNA Otomatik Tablo Çekici
+// @namespace    http://tampermonkey.net/
+// @version      1.0.0
+// @description  HYP dashboard verilerini otomatik sekmeye geçerek kopyalar.
+// @author       drpars
 // @match        https://sina.saglik.gov.tr/*
 // @grant        none
 // ==/UserScript==
@@ -9,7 +13,7 @@
 
     // EMNİYET KİLİDİ: Sadece URL sonunda #kopyala varsa çalışır
     if (window.location.hash === "#kopyala") {
-        
+
         console.log("SİNA Otomasyonu Aktif: Kopyalamak için bir kez tıklayın.");
 
         const copySinaTable = async () => {
