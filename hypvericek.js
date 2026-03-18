@@ -1,5 +1,9 @@
 // ==UserScript==
 // @name         HYP Otomatik Sekme ve Veri Çekici
+// @namespace    http://tampermonkey.net/
+// @version      1.0.0
+// @description  HYP dashboard verilerini otomatik sekmeye geçerek kopyalar.
+// @author       drpars
 // @match        https://hyp.saglik.gov.tr/dashboard*
 // @grant        none
 // ==/UserScript==
